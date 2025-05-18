@@ -1,1 +1,1 @@
-# SCR-DETR A Real-Time Lightweight DETR Model for Weed Detection
+# SCR-DETR：A Real-Time Lightweight DETR Model for Weed Detection
