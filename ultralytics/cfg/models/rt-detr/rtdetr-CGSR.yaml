@@ -31,14 +31,14 @@ head:
   - [11, 1, GetIndexOutput, [1]] # 13-P4/16
   - [11, 1, GetIndexOutput, [2]] # 14-P5/32
 
-  - [10, 1, RCM, []] # 15-P5/32
+  - [10, 1, SCF, []] # 15-P5/32
   - [[-1, 14], 1, FuseBlockMulti, []] # 16-P5/32
 
-  - [6, 1, RCM, []] # 17-P4/16
+  - [6, 1, SCF, []] # 17-P4/16
   - [[-1, 16], 1, DynamicInterpolationFusion, []] # 18-P4/16
   - [[-1, 13], 1, FuseBlockMulti, []] # 19-P4/16
 
-  - [5, 1, RCM, []] # 20-P3/8
+  - [5, 1, SCF, []] # 20-P3/8
   - [[-1, 19], 1, DynamicInterpolationFusion, []] # 21-P3/8
   - [[-1, 12], 1, FuseBlockMulti, []] # 22-P3/8
 
